@@ -43,14 +43,7 @@ header {
 	/*background: url("images/paper.png");
 	padding: 30px 0;*/
 }
-h1, h2 {
-	font-family: rift-soft, sans-serif;
-	font-weight: 400;
-	font-style: normal;
-}
-h2 {
-	font-size: 1.3rem;
-}
+
 header, footer {
 	margin: 0 10px;
 	overflow:hidden;
@@ -87,14 +80,19 @@ footer {
 
 /************ typography *************/
 
-h1, h2, h3 {
-	font-family: 'Bitter', serif;
-	margin-bottom:.5em;
+h1, h2 {
+	font-family: rift-soft, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	margin-bottom: 20px;
 }
 
 h1 {
 	font-size:150%;
-	text-transform:uppercase;
+}
+
+h2 {
+	font-size: 1.3rem;
 }
 
 header h1 {
@@ -108,7 +106,7 @@ p {
 }
 
 ul, ol {
-	margin-bottom:1em;
+	margin-bottom:2em;
 	list-style-type:disc;
 	padding-left:1.2em;
 }
