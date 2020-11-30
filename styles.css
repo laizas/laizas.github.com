@@ -14,10 +14,15 @@ img {
 /************* End CSS RESET **************/
 
 body {
-	background:url(images/paper.png);
-	color:#424242;
-	font-family: 'Source Sans Pro', sans-serif;
-	padding:30px 0;
+    color: #424242;
+    font-family: 'lato', sans-serif;
+    padding: 30px 0;
+    background-color: rgba(72,156,173,0.45);
+    background-image: -webkit-linear-gradient(270deg,rgba(78,148,177,0.33) 0%,rgba(78,148,177,0.29) 99.90%), url(images/paper.png);
+    background-image: -moz-linear-gradient(270deg,rgba(78,148,177,0.33) 0%,rgba(78,148,177,0.29) 99.90%), url(images/paper.png);
+    background-image: -o-linear-gradient(270deg,rgba(78,148,177,0.33) 0%,rgba(78,148,177,0.29) 99.90%), url(images/paper.png);
+    background-image: linear-gradient(180deg,rgba(78,148,177,0.33) 0%,rgba(78,148,177,0.29) 99.90%), url(images/paper.png);
+	height: 100vh;
 }
 
 #page {
@@ -25,11 +30,25 @@ body {
 	margin:auto;
 }
 
-header {
-	border-bottom: 3px solid #424242;
-	padding-bottom:20px;
+img {
+	width:200px;
 }
 
+header {
+	border-bottom: 1px solid #424242;
+	padding-bottom:20px;
+	
+}
+#page {
+	/*background: url("images/paper.png");
+	padding: 30px 0;*/
+}
+h1, h2 {
+	font-family:rift-soft, sans-serif;
+}
+h2 {
+	font-size: 1.3rem;
+}
 header, footer {
 	margin: 0 10px;
 	overflow:hidden;
@@ -40,8 +59,11 @@ section {
 }
 
 footer {
-	border-top: 3px solid #424242;
-	padding-top:20px;
+    border-top: 1px solid #424242;
+    padding-top: 20px;
+    border-bottom-style: dotted;
+    border-right-style: dotted;
+    border-left-style: dotted;
 }
 
 #about {
@@ -125,4 +147,3 @@ a:hover {
 	
 }
 	
-
